@@ -1,15 +1,17 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-html {
+/* html {
     font-size: 62.5%;
-}
+} */
 
 body {
     font-size: 16px;
-    font-size: 1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #313a3d;
     width: 100%;
     margin: 0 auto;
@@ -34,7 +36,6 @@ header#banner a:hover {
 header#banner h2 {
     display: inline;
     font-size: 21px;
-    font-size: 2.1rem;
     margin: 0 8px 0 0;
 }
 
@@ -80,7 +81,6 @@ main#content h6 {
 
 main#content h3 {
     font-size: 19px;
-    font-size: 1.9rem;
 }
 
 main#content h1 + p,
@@ -111,7 +111,6 @@ main#content abbr {
 main#content ul#posts {
     list-style-type: none;
     font-size: 16px;
-    font-size: 1.6rem;
     margin-top: 0;
     padding: 0;
 }
@@ -143,7 +142,6 @@ main#content ul#posts li a:hover small {
 main#content header#post-header h1 {
     display: block;
     font-size: 23px;
-    font-size: 2.3rem;
     font-weight: 600;
     line-height: 1.15;
 }
@@ -172,11 +170,13 @@ main#content #toc nav#TableOfContents {
     margin-top: 4px;
 }
 
-main#content #toc nav#TableOfContents > ul, main#content #toc nav#TableOfContents > ol {
+main#content #toc nav#TableOfContents > ul,
+main#content #toc nav#TableOfContents > ol {
     margin-left: -40px;
 }
 
-main#content #toc ul, main#content #toc ol {
+main#content #toc ul,
+main#content #toc ol {
     font-size: 0.98em;
     margin: 0;
     padding: 0 0 0 40px;
@@ -246,7 +246,7 @@ main#content blockquote {
 
 main#content code,
 main#content pre {
-    font-family: 'Menlo', monospace;
+    font-family: "Menlo", monospace;
 }
 
 main#content code {
@@ -257,7 +257,6 @@ main#content code {
 main#content pre {
     display: block;
     overflow-x: auto;
-    font-size: 14px;
     font-size: 1.4rem;
     white-space: pre;
     margin: 20px 0;
@@ -274,7 +273,6 @@ main#content .footnotes {
 }
 
 footer#footer {
-    font-size: 14px;
     font-size: 1.4rem;
     font-weight: 400;
     color: #b3b3b3;
