@@ -30,6 +30,10 @@
 	{{ with .Site.Params.mastodonUrl -}}
 		<a rel="me" style="display:none" href="{{.}}">Mastodon</a>
 	{{ end }}
+	
+	{{ if .Site.Params.tinylyticsSiteID -}}
+	{{ printf `<script src="https://tinylytics.app/embed/%s.js" defer></script>` .Site.Params.tinylyticsSiteID | safeHTML }}
+	{{ end }}
     <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>
 </head>
